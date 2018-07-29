@@ -1,0 +1,60 @@
+
+    @media screen and (max-width:799px){
+        nav{
+           height:auto;
+            padding:20px;
+            flex-direction: column-reverse;
+         
+            
+            
+            .nav-item{
+               
+             
+                 display:none;
+                height:auto;
+                
+                .nav-item-list{
+                   display:flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    
+                   
+                }
+            }
+            
+            .social_menu{
+                width:100%;
+                display:flex;
+                justify-content: space-between;
+                 
+            }
+            .btn-hamburger{
+                display:inline-block;
+            }
+            
+           
+        }
+        
+        .team {
+            .col-sm-6,.col-sm-6{
+                margin-bottom: 40px;
+                img{
+            max-width: 200px;
+        }
+            }
+        }
+        
+    }
+
+@media screen and (max-width:960px){
+      .team {
+            .col-sm-6,.col-sm-6{
+                margin-bottom: 40px;
+                img{
+            max-width: 250px;
+        }
+            }
+           
+        }
+       
+}
