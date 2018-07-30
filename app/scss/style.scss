@@ -10,7 +10,7 @@ body {
     h2 {
         text-align: center;
         color:#fff;
-        font-size: bold;
+        font-weight: bold;
 
     }
     h2::after {
@@ -186,7 +186,7 @@ body {
 
     /*button content section*/
     .button_content {
-        background: #7BA024;
+        background: linear-gradient(135deg, rgba(0,128,0,1) 0%,rgba(123,160,36,1) 98%,rgba(123,160,36,1) 100%,rgba(123,160,36,1) 100%,rgba(123,160,36,1) 100%,rgba(123,160,36,1) 100%,rgba(123,160,36,1) 100%); 
 
 
         .button_contact {
@@ -277,6 +277,12 @@ body {
             max-width: 500px;
             margin-top: 80px;
         }
+        
+        .ofert-garden{
+          background: linear-gradient(135deg, rgba(0,128,0,1) 0%,rgba(123,160,36,1) 98%,rgba(123,160,36,1) 100%,rgba(123,160,36,1) 100%,rgba(123,160,36,1) 100%,rgba(123,160,36,1) 100%,rgba(123,160,36,1) 100%); 
+            color:#fff;
+            padding:20px;
+        }
 
 
 
@@ -285,10 +291,12 @@ body {
 
     /*team section start*/
     .team {
-        background: #7BA024;
+      background: linear-gradient(135deg, rgba(0,128,0,1) 0%,rgba(123,160,36,1) 98%,rgba(123,160,36,1) 100%,rgba(123,160,36,1) 100%,rgba(123,160,36,1) 100%,rgba(123,160,36,1) 100%,rgba(123,160,36,1) 100%); 
         padding-top: 60px;
         padding-bottom: 60px;
         color: #fff;
+        padding-left:20px;
+        padding-right:20px;
 
         p {
             margin-top: 30px;
@@ -299,11 +307,34 @@ body {
         .align-items-center .col-lg-4 {
             text-align: center;
             margin-bootom: 100px;
+            display:flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            
+            
+                  .btn-team {
+
+                display: block;
+               width: 200px;
+                margin: 0 auto;
+                padding: 15px 15px 15px 15px;
+                border-radius: 20px;
+                border: 1px solid #2D2C29;
+                background: #2D2C29;
+                color: #fff;
+                margin-top: 20px;
+
+
+                &.btn-team:hover {
+                    background: transparent;
+                    color: #2D2C29;
+                }
+            }
 
             img {
                 border-radius: 5px;
 
-                margin-bottom: 40px;
             }
 
             .btn-header {
@@ -400,15 +431,20 @@ body {
             }
 
 
-            .store {
-                display: inline-block;
-                width: 40px;
-                height: 40px;
-                background: green;
-            }
+          
 
 
         }
+        
+          .store {
+                display: inline-block;
+                width: 40px;
+                height: 40px;
+              color:#fff;
+              border-radius:50%;
+              margin-right:10px;
+                background: green;
+            }
     }
 
 
@@ -531,7 +567,9 @@ body {
         padding-top: 60px;
         padding-bottom: 60px;
 
-
+        h2{
+            color:#000;
+        }
         .owl-item {
             background: #fff;
             color: #000;
@@ -644,24 +682,19 @@ text-align: center;
         }
 
         h4 {
-            color: green;
+            color: #fff;
         }
 
         img {
             width: 100%;
             padding: 20px;
         }
-
-        .footer_social {
-            text-align: center;
-            padding-top: 20px;
-            padding-bottom: 20px;
-            i {
-                margin: 10px;
-                color: #fff;
-                font-size: 20px;
-            }
+        
+        
+       a, i{
+            color:darkgrey;
         }
+
     }
 
 

@@ -42,7 +42,7 @@ body {
   body h2 {
     text-align: center;
     color: #fff;
-    font-size: bold; }
+    font-weight: bold; }
   body h2::after {
     content: "";
     display: flex;
@@ -161,7 +161,7 @@ body {
       body .widget span i {
         color: #fff; }
   body .button_content {
-    background: #7BA024; }
+    background: linear-gradient(135deg, green 0%, #7ba024 98%, #7ba024 100%, #7ba024 100%, #7ba024 100%, #7ba024 100%, #7ba024 100%); }
     body .button_content .button_contact {
       height: 150px;
       display: flex;
@@ -219,21 +219,43 @@ body {
     body .first_contact .img-first {
       max-width: 500px;
       margin-top: 80px; }
+    body .first_contact .ofert-garden {
+      background: linear-gradient(135deg, green 0%, #7ba024 98%, #7ba024 100%, #7ba024 100%, #7ba024 100%, #7ba024 100%, #7ba024 100%);
+      color: #fff;
+      padding: 20px; }
   body .team {
-    background: #7BA024;
+    background: linear-gradient(135deg, green 0%, #7ba024 98%, #7ba024 100%, #7ba024 100%, #7ba024 100%, #7ba024 100%, #7ba024 100%);
     padding-top: 60px;
     padding-bottom: 60px;
-    color: #fff; }
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px; }
     body .team p {
       margin-top: 30px;
       text-align: center;
       font-size: 22px; }
     body .team .align-items-center .col-lg-4 {
       text-align: center;
-      margin-bootom: 100px; }
+      margin-bootom: 100px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center; }
+      body .team .align-items-center .col-lg-4 .btn-team {
+        display: block;
+        width: 200px;
+        margin: 0 auto;
+        padding: 15px 15px 15px 15px;
+        border-radius: 20px;
+        border: 1px solid #2D2C29;
+        background: #2D2C29;
+        color: #fff;
+        margin-top: 20px; }
+        body .team .align-items-center .col-lg-4 .btn-team.btn-team:hover {
+          background: transparent;
+          color: #2D2C29; }
       body .team .align-items-center .col-lg-4 img {
-        border-radius: 5px;
-        margin-bottom: 40px; }
+        border-radius: 5px; }
       body .team .align-items-center .col-lg-4 .btn-header {
         display: block;
         width: 180px;
@@ -287,11 +309,14 @@ body {
           margin: 0 auto; }
           body .first_contact .offert .col-lg-6 span img {
             max-width: 100px; }
-      body .first_contact .offert .store {
-        display: inline-block;
-        width: 40px;
-        height: 40px;
-        background: green; }
+    body .first_contact .store {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      color: #fff;
+      border-radius: 50%;
+      margin-right: 10px;
+      background: green; }
   body .fish-background {
     height: 200px; }
     body .fish-background div {
@@ -361,6 +386,8 @@ body {
 .reference {
   padding-top: 60px;
   padding-bottom: 60px; }
+  .reference h2 {
+    color: #000; }
   .reference .owl-item {
     background: #fff;
     color: #000;
@@ -429,18 +456,12 @@ footer {
   footer h2 {
     color: #fff; }
   footer h4 {
-    color: green; }
+    color: #fff; }
   footer img {
     width: 100%;
     padding: 20px; }
-  footer .footer_social {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px; }
-    footer .footer_social i {
-      margin: 10px;
-      color: #fff;
-      font-size: 20px; }
+  footer a, footer i {
+    color: darkgrey; }
 
 /*modals style start*/
 #modal_content {
